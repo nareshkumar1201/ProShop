@@ -2,6 +2,8 @@ import express from "express";
 import connectDB from "./config/db.js";
 import ProductsData from "./data/products.js";
 import dotenv from "dotenv";
+import productsRoutes from "./routes/productsRoute.js";
+import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 dotenv.config();
 
 connectDB(); // connecting to mongodb
@@ -13,15 +15,10 @@ app.get("/", (req, res, next) => {
   res.send("API is running ");
 });
 
-app.get("/api/products", (req, res, next) => {
-  res.json(ProductsData);
-});
-
-app.get("/api/products/:id", (req, res, next) => {
-  const product = ProductsData.find((p) => p._id === req.params.id);
-  res.json(product);
-});
+app.use("/api/products", productsRoutes);
+app.use(notFound);
+app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log("app listing to port 5000");
+  console.log(`app listing to port: ${PORT}`);
 });

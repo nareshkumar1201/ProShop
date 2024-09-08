@@ -1,0 +1,66 @@
+[33mcommit 4fb87ff62343302dd7c2dea479416f92103f7893[m[33m ([m[1;36mHEAD -> [m[1;32mi-redux-tool-kit[m[33m)[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Thu Sep 5 18:54:46 2024 +0530
+
+    working on cart Screen Page
+
+[33mcommit d8f10c705f3f59572353d409392096c4b011dbcd[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Tue Jul 30 17:03:28 2024 +0530
+
+    reduxtoolkit basic set up done
+
+[33mcommit 3bdf68e790a83d6e5eb5aa6772fe1758acb4865a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m, [m[1;32mi-server[m[33m)[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Mon Jul 29 19:54:33 2024 +0530
+
+    data fetching from DB done
+
+[33mcommit 4d0ded8113f7a929b9246f1120ade23b90f54b52[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Mon Jul 29 00:27:05 2024 +0530
+
+    connected to db and added data to db
+
+[33mcommit 3e7f7e4adf65a5375d48888504bce0630ba6d63b[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Thu Jul 11 19:33:22 2024 +0530
+
+    connecting to server-error
+
+[33mcommit 2422b39fbc857db2cac6d08757910278815f84a9[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Wed Jul 10 18:51:24 2024 +0530
+
+    added product page
+
+[33mcommit 77af0b8ac6c83041b697ac85d307cd1e291e9ff1[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Sun Jul 7 19:46:05 2024 +0530
+
+    react router implemented --error
+
+[33mcommit e0a53fadd4de92668d1bb11f79bca0dfda21023a[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Sat Jul 6 19:52:32 2024 +0530
+
+    added frontend folder
+
+[33mcommit 367a56cfb615e30d1efc3f8bf6df56bc557a5bce[m
+Merge: f5b7b73 60fe8cd
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Thu Jul 4 19:49:52 2024 +0530
+
+    Merge branch 'main' of https://github.com/nareshkumar1201/ProShop
+
+[33mcommit f5b7b7313cb2ac45dbdb6e86a7425e11c1c67671[m
+Author: sachin-tele-t20 <sachin.tele.t20@gmail.com>
+Date:   Thu Jul 4 18:54:13 2024 +0530
+
+    initial commit
+
+[33mcommit 60fe8cd983fb7c8e44c79a895d4edfba67d73e03[m
+Author: naresh <45263438+nareshkumar1201@users.noreply.github.com>
+Date:   Thu Jul 4 18:02:56 2024 +0530
+
+    Initial commit

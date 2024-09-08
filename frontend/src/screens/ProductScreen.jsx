@@ -24,6 +24,7 @@ const ProductScreen = () => {
 
   const addToCartHandler = () => {
     dispatch(addToCart({ ...product, qty }));
+
     navigate("/cart");
   };
 
@@ -69,7 +70,6 @@ const ProductScreen = () => {
                 <ListGroup.Item>
                   Description :{product.description}
                 </ListGroup.Item>
-                000
               </ListGroup>
             </Col>
             <Col md={3}>
@@ -102,7 +102,7 @@ const ProductScreen = () => {
                         <Form.Control
                           as="select"
                           value={qty}
-                          onChange={(e) => setQty(e.target.value)}
+                          onChange={(e) => setQty(Number(e.target.value))}
                         >
                           {[...Array(product.countInStock).keys()].map((x) => (
                             <option key={x + 1} value={x + 1}>
